@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,36 +12,48 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
         header {
             background-color: #333;
             color: white;
             padding: 10px 0;
             text-align: center;
         }
+
         nav {
             background-color: #555;
             color: white;
             padding: 10px;
             text-align: center;
         }
+
         nav a {
             color: white;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         main {
             padding: 20px;
             background-color: white;
             margin: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        span {
+    
+    		color: gray;
+    		font-size: 0.9em;
+    		margin-left: 5px;
+		}
+
     </style>
 <body>
-
 <header>
     <h1>Ehitus</h1>
 </header>
@@ -52,18 +63,24 @@
     <a href="#projektid">Projektid</a>
     <a href="#kontakt">Kontakt</a>
 </nav>
-
 <main>
     <section id="teenused">
         <h2>Meie teenused</h2>
         <p>Pakkume laia valikut ehitusteenuseid, sealhulgas uusehitiste ehitamine, renoveerimine ja projekteerimine.</p>
     </section>
-
+</main>
+<main>
     <section id="projektid">
         <h2>Viimased projektid</h2>
         <p>Oleme edukalt lõpetanud mitmeid suuri projekte, sealhulgas elamuehitused ja äripinnad.</p>
+<ol>
+  <li><a href="https://www.kvartal.com.ee">Tartu Kvartal</a> <span>(2016)</span></li>
+  <li><a href="https://karikakar.edu.ee">Jõgeva Lasteaed</a> <span>(2016)</span></li>
+  <li><a href="https://www.fin.ee/uhishoone-kulastajale">Rahandusministeeriumi ühishoone</a> <span>(2017)</span></li>
+</ol>
     </section>
-
+</main>
+<main>
     <section id="kontakt">
         <h2>Kontakt</h2>
         <p>Võta meiega ühendust: info@ehitusmail.ee või helista +372 xxx xxx</p>
