@@ -8,3 +8,7 @@ Veebileht koosneb järgmistest osadest:
 - **Päis**
 - **Menüü**
 - **Põhiosa**
+
+## Kasutamine
+
+Saab vaatada siit: https://stenelisson.github.io/ehitus/
